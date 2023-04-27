@@ -8,11 +8,11 @@ let serverUrl = 'http://localhost:4000';
 
 switch (process.env.REACT_NATIVE_APP_PUBLIC_ENV) {
   case 'base':
-    serverUrl = 'https://company-portal.onrender.com/graphql';
+    serverUrl = 'https://company-portal.onrender.com';
     break;
 
   case 'beta':
-    serverUrl = 'https://company-portal-beta.onrender.com/graphql';
+    serverUrl = 'https://company-portal-beta.onrender.com';
     break;
 
   default:
